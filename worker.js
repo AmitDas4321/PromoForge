@@ -37,7 +37,7 @@ const BUTTON_LAYOUT = "vertical";
 // const PRIVATE_MEDIA = "https://example.com/a.gif";
 // OR Telegram sticker file_id:
 // const PRIVATE_MEDIA = "sticker=CAACAgIAAxkBAA....";
-const PRIVATE_MEDIA = "https://kamini.govt.hu/assets/ezgif-1bceaeb68bdc604d.gif";
+const PRIVATE_MEDIA = "https://raw.githubusercontent.com/AmitDas4321/PromoForge/refs/heads/main/img/example.png";
 const PRIVATE_TEXT = `🎬 Exclusive Video Just For You!`;
 
 const PRIVATE_BTN1 = { text: "Watch Video 🎬", url: "https://example.com/" };
@@ -49,7 +49,7 @@ const PRIVATE_BTN2 = {
 /* =========================
    2) JOIN (bot added to group)
 ========================= */
-const JOIN_MEDIA = "https://kamini.govt.hu/assets/ezgif-1bceaeb68bdc604d.gif";
+const JOIN_MEDIA = "https://raw.githubusercontent.com/AmitDas4321/PromoForge/refs/heads/main/img/example.png";
 const JOIN_TEXT = `🎬 Exclusive Video Just For You!`;
 
 const JOIN_BTN1 = {
@@ -64,7 +64,7 @@ const JOIN_BTN2 = {
 /* =========================
    3) FIRST user message (once)
 ========================= */
-const FIRST_MEDIA = "https://kamini.govt.hu/assets/ezgif-1bceaeb68bdc604d.gif";
+const FIRST_MEDIA = "https://raw.githubusercontent.com/AmitDas4321/PromoForge/refs/heads/main/img/example.png";
 const FIRST_TEXT = `🎬 Exclusive Video Just For You!`;
 
 const FIRST_BTN1 = {
@@ -82,7 +82,7 @@ const FIRST_BTN2 = {
 const AUTO_REPLY_ENABLED = true;
 const AUTO_REPLY_EVERY = 3;
 
-const AUTO_MEDIA = "https://kamini.govt.hu/assets/ezgif-1bceaeb68bdc604d.gif";
+const AUTO_MEDIA = "https://raw.githubusercontent.com/AmitDas4321/PromoForge/refs/heads/main/img/example.png";
 const AUTO_TEXT = `🎬 Exclusive Video Just For You!`;
 
 const AUTO_BTN1 = { text: "Watch Video 🎬", url: "https://t.me/play_sq_bot" };
