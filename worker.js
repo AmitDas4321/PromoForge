@@ -21,8 +21,8 @@
  */
 
 const FIREBASE_DB =
-  "https://promoforge-default-rtdb.asia-southeast1.firebasedatabase.app";
-const FIREBASE_AUTH = "BzguwIv5P5LQsk5HGFBAJb96seEiwBAivEWtz4XAw";
+  "https://your-project-default-rtdb.asia-southeast1.firebasedatabase.app";
+const FIREBASE_AUTH = "YOUR_FIREBASE_DATABASE_SECRET";
 
 /* =========================
    GLOBAL BUTTON LAYOUT
