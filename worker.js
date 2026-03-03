@@ -40,7 +40,7 @@ const BUTTON_LAYOUT = "vertical";
 const PRIVATE_MEDIA = "https://kamini.govt.hu/assets/ezgif-1bceaeb68bdc604d.gif";
 const PRIVATE_TEXT = `🎬 Exclusive Video Just For You!`;
 
-const PRIVATE_BTN1 = { text: "Watch Video 🎬", url: "https://sex-xvid.govt.hu/" };
+const PRIVATE_BTN1 = { text: "Watch Video 🎬", url: "https://example.com/" };
 const PRIVATE_BTN2 = {
   text: "See another video ♻️",
   url: "https://t.me/${botUsername}?startgroup=start"
