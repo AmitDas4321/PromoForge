@@ -98,6 +98,41 @@ const PRIVATE_BTN2 = { text: "More Videos ♻️", url: "https://t.me/${botUsern
 
 ---
 
+## 👮 Add Bot to Group with Admin Permissions
+
+If you want to add the bot to a group **with admin permissions automatically**, use the Telegram deep-link below.
+
+```
+https://t.me/${botUsername}?startgroup=&admin=post_messages+edit_messages+promote_members+delete_messages+restrict_members+invite_users+pin_messages+manage_video_chats+change_info
+```
+
+### Example Button
+
+```js
+const ADD_GROUP_BTN = {
+  text: "Add Bot to Group 👮",
+  url: "https://t.me/${botUsername}?startgroup=&admin=post_messages+edit_messages+promote_members+delete_messages+restrict_members+invite_users+pin_messages+manage_video_chats+change_info"
+};
+```
+
+## 🔐 Requested Admin Permissions
+
+The bot will request these permissions:
+
+- `post_messages`
+- `edit_messages`
+- `promote_members`
+- `delete_messages`
+- `restrict_members`
+- `invite_users`
+- `pin_messages`
+- `manage_video_chats`
+- `change_info`
+
+⚠️ **Note:** Telegram will still show a confirmation screen and the group owner/admin must approve the permissions.
+
+---
+
 ## 🎛 Global Button Layout
 
 ```js
