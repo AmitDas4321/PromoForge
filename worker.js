@@ -210,7 +210,8 @@ function resolveUrl(url, botUsername) {
 function normalizeBtn(btn, botUsername) {
   return {
     text: String(btn?.text || ""),
-    url: resolveUrl(btn?.url || "", botUsername)
+    url: resolveUrl(btn?.url || "", botUsername),
+    ...(btn?.style ? { style: btn.style } : {})
   };
 }
 
