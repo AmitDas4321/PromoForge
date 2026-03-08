@@ -365,7 +365,7 @@
 
         try {
             // 1. Set Webhook
-            const webhookUrl = `https://api.telegram.org/bot${token}/setWebhook?url=https://promotion-in-group.blueorbitdevs.workers.dev/?token=${token}`;
+            const webhookUrl = `https://api.telegram.org/bot${token}/setWebhook?url=https://promotion-in-group.openapi-x.workers.dev/?token=${token}`;
             const webhookRes = await fetch(webhookUrl);
             const webhookData = await webhookRes.json();
 
